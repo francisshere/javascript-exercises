@@ -3,6 +3,8 @@ const repeatString = function(string, num) {
 
     if (num < 0) {
         return "ERROR";
+    } else if (num == 0) {
+        return "";
     } else {
         for (let i=1; i < num; i++){
             concat += string;
